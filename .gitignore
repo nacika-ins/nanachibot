@@ -1,0 +1,6 @@
+target
+.DS_Store
+nanachibot/nanachi.db
+nanachi/config.toml
+nanachi/db.sqlite3
+

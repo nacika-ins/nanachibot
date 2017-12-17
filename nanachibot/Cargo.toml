@@ -1,0 +1,13 @@
+[package]
+name = "nanachibot"
+version = "0.1.0"
+authors = ["nacika <nacika.inscatolare@gmail.com>"]
+
+[dependencies]
+nanachi = { path = "../nanachi", version = "0.1.0" }
+mammut = { git = "https://github.com/nacika-ins/Mammut.git", version = "0.9.0", branch = "develop" }
+serde_derive = "1.0"
+serde_json = "1.0"
+regex = "*"
+url = "*"
+curl = "*"

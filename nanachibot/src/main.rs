@@ -44,7 +44,7 @@ fn try() -> mammut::Result<()> {
 
     let app = get_app();
     let mut config = get_config();
-    let mut registration = Registration::new("https://oransns.com");
+    let mut registration = Registration::new("https://example.com");
     #[allow(unused_assignments)]
     let mut mode = MODE::None;
 
